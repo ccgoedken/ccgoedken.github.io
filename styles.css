@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+
+
+main {
+    margin: 15%
+}
+
+h2 {
+
+}
+
+p {
+    margin: 2%
+}
+
 /* Body styling */
 body {
     font-family: 'Arial', sans-serif;
@@ -31,7 +45,6 @@ header {
 /* Main section for the publications */
 main {
     margin-top: 40px;
-    padding-bottom: 40px;
 }
 
 /* Publication section styling */
@@ -65,5 +78,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 40px;
 }

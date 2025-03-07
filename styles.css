@@ -8,12 +8,24 @@
 
 
 main {
-    margin: 15%
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 p {
-    margin: 2%
+    margin-left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 0;
 }
+
+
+
+
+
+
 
 /* Body styling */
 body {
@@ -30,12 +42,63 @@ body {
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+.text-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.left{
+    justify-content: left;
+    flex: 1;
+    font-weight: bold;
+}
+.center{
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+.right{
+    justify-content: right;
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
+
+li{
+    margin-left: 2%;
+}
+
+
+
+
 /* Header styling */
 header {
-    background-color: #004d99;
-    color: white;
+    background-color: #96E6B3;
+    color: black;
     padding: 20px 0;
     text-align: center;
+    
+}
+
+
+
+
+
+h2{
+    margin-top: 2%;
 }
 
 /* Main section for the publications */
@@ -43,30 +106,7 @@ main {
     margin-top: 40px;
 }
 
-/* Publication section styling */
-.publications {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
-/* Individual publication styling */
-.publication {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.publication h2 {
-    font-size: 1.6em;
-    color: #004d99;
-}
-
-.publication p {
-    font-size: 1.1em;
-    margin-top: 10px;
-}
 
 /* Footer styling */
 footer {
